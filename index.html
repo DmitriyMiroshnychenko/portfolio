@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
     <!-- Box icons -->
     <link
@@ -199,9 +204,9 @@
       <h2 class="heading">Valuable <span>Testimonial</span></h2>
 
       <div class="testimonial-wrapper">
-        <div class="testimonial-box">
-          <div class="testimonial-content">
-            <div class="testimonial-slide">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
               <img src="images/testimonial1.jpg" alt="" />
               <h3>Juckob Nouh</h3>
               <p>
@@ -215,10 +220,43 @@
                 architecto assumenda placeat, repellendus dolorum?
               </p>
             </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="images/testimonial2.jpg" alt="" />
+              <h3>Jasmine Murrey</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellat culpa magnam nobis iusto doloribus, quasi ut
+                consectetur similique distinctio aliquid voluptatibus sequi
+                odit, repellendus eius dignissimos illum! Sed similique debitis
+                omnis, doloribus harum architecto nostrum sequi commodi maxime,
+                impedit minus voluptas corrupti! Sunt ab nemo esse non voluptas
+                rem veniam tempora blanditiis atque? Exercitationem laboriosam
+                architecto assumenda placeat, repellendus dolorum?
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="images/testimonial3.jpg" alt="" />
+              <h3>Patrick Navotsky</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellat culpa magnam nobis iusto doloribus, quasi ut
+                consectetur similique distinctio aliquid voluptatibus sequi
+                odit, repellendus eius dignissimos illum! Sed similique debitis
+                omnis, doloribus harum architecto nostrum sequi commodi maxime,
+                impedit minus voluptas corrupti! Sunt ab nemo esse non voluptas
+                rem veniam tempora blanditiis atque? Exercitationem laboriosam
+                architecto assumenda placeat, repellendus dolorum?
+              </p>
+            </div>
           </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <script src="js/script.js"></script>
   </body>
